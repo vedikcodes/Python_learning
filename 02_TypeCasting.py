@@ -1,7 +1,7 @@
  #TypeCasting = the process of converting a variable from one data type to another
 #      str() , int() , float() , bool()
 
-name= ""
+name= "vedik tiwari"
 age =22
 gpa =8.9
 is_student =True
@@ -29,6 +29,7 @@ print(age)
 name = bool(name)
 print(name) #True
 
-name = ""
-print(name) #false
+
+# name = ""
+# print(name) #false
 
