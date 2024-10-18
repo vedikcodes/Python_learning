@@ -1,6 +1,10 @@
 #INPUT() = A function that prompts the user to enter data 
 #          Returns the entered data as a string
 
+
+
+
+
 #name =input("what is your name? :")
 #age = int(input("how old are you")) #when we accept user input we stroe that input as string so here it'll be stored as string not int
 
@@ -25,8 +29,8 @@ item = input("what item would you like to buy ? :")
 price = float(input("what is the price :"))
 quantity = int(input("how many would you like?:"))
 total =price*quantity
-print(f"you  have bought{quantity} X {item} /s")
-print(f"your total is: {total}")
+print(f"you  have bought {quantity} X {item} /s")
+print(f"your total is ₹: {total}")
 
 
               
